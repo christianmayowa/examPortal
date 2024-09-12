@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+}
+/* TIMER BEGINS */
+
+.timer{
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 1400px;
+    border: 5px solid black;
+    display: none;
+    /* background-color: rgba(255, 0, 0, 0.407); */
+}
+
+/* TIMER ENDS */
+/* GET STARTED PAGE BEGINS */
+
+.getstarted{
+    width: 420px;
+    height: 600px;
+    margin: 70px auto;
+    /* padding: 30px 30px; */
+    border-radius: 30px;
+    border: 7px solid darkblue;
+    background-color: rgb(200, 235, 248);
+}
+#getstarted{
+    height: 400px;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    border-bottom-left-radius: 100px;
+    text-transform: uppercase;
+    background-color: darkblue;
+}
+.getstarted button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    margin-left: 110px;
+    margin-top: 100px;
+    font-size: 25px;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.getstarted button:hover{
+    background-color: teal;
+}
+/* GET STARTED PAGE ENDS */
+
+/* <!-- LOGIN FORM TO ACCESS CLASSIC EXAMS  --> */
+
+form{
+    width: 360px;
+    height: 540px;
+    margin: 70px auto;
+    padding: 30px 30px;
+    border-radius: 30px;
+    border: 7px solid darkblue;
+    background-color: rgb(200, 235, 248);
+    display: none;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+label{
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+input{
+    width: 330px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 20px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    width: 355px;
+    border: 0;
+    margin: 25px 0;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
+p{
+    font-size: 23px;
+}
+
+
+/* CLASSIC EXAM INSTRUCTIONS */
+
+.parent, .fq, .sq{
+    width: 900px;
+    height: fit-content;
+    padding: 50px 50px;
+    border-radius: 30px;
+    border: 7px solid darkblue;
+    background-color: rgb(200, 235, 248);
+    margin: 50px 50px;
+    display: none;
+}
+.parent h1{
+    text-transform: uppercase;
+}
+.parent h1:first-child{
+    text-align: center;
+    font-family: tahoma;
+}
+.parent h1:nth-child(2){
+    font-size: 40px;
+    font-family: serif;
+    padding-bottom: 30px;
+}
+li{
+    font-size: 30px;
+    padding-bottom: 30px;
+    font-family: serif;
+}
+#startButton{
+    width: 90px;
+    height: 40px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 800px;
+    cursor: pointer;
+    background-color: blue;
+}
+#startButton:hover{
+    background-color: darkblue;
+}
+
+/* FIRST QUESTION */
+
+.q1{
+    /* text-align: left; */
+    font-size: 40px;
+}
+.radio input{
+    width: 25px;
+}
+hr{
+    height: 5px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+.text{
+    padding: 15px 10px;
+    font-size: 30px;
+}
+.answer{
+    margin-top: 2px;
+    display: flex;
+}
+.previous{
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    /* margin-left: 800px; */
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.404);
+}
+#prevWork{
+    background-color: blue;
+}
+#prevWork:hover{
+    background-color: rgba(0, 0, 255, 0.506);
+}
+.next{
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blue;
+}
+.next:hover{
+    background-color: rgba(0, 0, 255, 0.531);
+}
+.submit{
+    width: 100px;
+    height: 50px;
+    border: 0;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 500px;
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.545);
+}
+.submit:hover{
+    background-color: rgba(144, 238, 144, 0.717);
+}
+
+/* FINAL SCORE OR RESULT SHA */
+
+.result{
+    width: 500px;
+    height: fit-content;
+    margin: 70px auto;
+    padding: 30px 30px;
+    border-radius: 30px;
+    border: 3px solid rgba(144, 238, 144, 0.729);
+    background-color: rgba(144, 238, 144, 0.564);
+    display: none;
+}
+h1, .fullname{
+    font-size: 40px;
+}
+.result button{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.759);
+}
+
+
+/* THE PAGE NUMBER IN TH QUESTION DIV */
+.fq{
+    position: relative;
+}
+.pgNumber{
+    width: 100px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -50px;
+    border: 5px solid black;
+}
+label, input[type = "radio"]{
+    cursor: pointer;
+}
