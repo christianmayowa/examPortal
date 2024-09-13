@@ -99,6 +99,9 @@ input[type="submit"]{
     cursor: pointer;
     background-color: blue;
 }
+input[type="submit"]: hover{
+    background-color: darkblue;
+}
 p{
     font-size: 23px;
 }
